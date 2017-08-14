@@ -1,0 +1,17 @@
+switch(x){
+        case 1:
+            dataCar.update({$inc:{FordMustang:1}})
+            break;
+        case 2:
+            dataCar.update({$inc:{DodgeChallenger:1}})
+            break;
+        case 3:
+            dataCar.update({$inc:{MazdaMiata:1}})
+            break;
+        case 4:
+            dataCar.update({$inc:{ChevroletCamaro:1}})
+            break;
+        
+    }
+
+    "598e9e06e0fabe08605e7479"
